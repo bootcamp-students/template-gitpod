@@ -1,4 +1,4 @@
-FROM docker.io/gitpod/workspace-base:latest
+FROM docker.io/gitpod/workspace-python-3.10:latest
 USER root
 RUN apt-get update && \
     apt-get upgrade -y && \
